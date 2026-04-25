@@ -1,0 +1,67 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+.pyre/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter and notebook temp files
+.ipynb_checkpoints/
+
+# Build and packaging artifacts
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Coverage and test output
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.pid
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local Python tooling
+.python-version
+
+# Secrets and local environment files
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.crt
+secrets.*
+
+# Large or generated local data dumps
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.joblib
