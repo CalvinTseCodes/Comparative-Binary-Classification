@@ -71,5 +71,5 @@ Overfitting Discussion:
 
 AI Usage section:
     - AI Tool Used: Codex, ChatGPT
-    - What It Helped With: writing the reusable evaluation function, determining optimal threshold that achieves best validation f2 score, and helped fix errors
+    - What It Helped With: writing the reusable evaluation function, determining optimal threshold that achieves best validation f2 score, and helped fix errors. Also wrote setup instructions for readme.md
     - One mistake or bad suggestion you caught: I asked it to put the feature importance plot png in this file before I decided to get rid of it. The plot was made with a training setup ChatGPT created internally and not the one I specified in the notebook.
