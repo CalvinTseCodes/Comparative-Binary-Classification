@@ -55,7 +55,7 @@ Calibration Result:
     - Test Set Brier Score: 0.0228
     - Calibration plot appears reasonably calibrated since the curve stays close to the perfect calibration line for most of the range.
     - From the curve we can see high predicted risks respond to higher bankruptcy rates. As  predicted probability increases, the fraction of positives increase too.
-    - While the model seems a little overconfident for predicted probabilties below 0.5, with the distance the calibration curve is above the perfection calibration line after 0.5, overall the model seems to be more undercondient.
+    - While the model seems a little overconfident for predicted probabilties below 0.5, with the distance the calibration curve is above the perfection calibration line after 0.5, overall the model seems to be more underconfident.
     - The ranking is useful even if calibration is imperfect because it is ranking risk in the right direction. More risks means higher chance of bankruptcy.
     
 Feature Importance Result:
